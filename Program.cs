@@ -12,10 +12,9 @@
             Console.Write("Сколько раз его вывести на экран?: ");
             numbersOfRepeat = Convert.ToInt32(Console.ReadLine());
 
-            while (numbersOfRepeat > 0)
+            for (int i = 0; i < numbersOfRepeat; i++)
             {
                 Console.WriteLine(userMessage);
-                numbersOfRepeat--;
             }
         }
     }
